@@ -1,0 +1,5 @@
+db.sqlite3
+ieomanager/db.sqlite3
+*/__pycache__/*
+*.pyc
+00*.py

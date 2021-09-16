@@ -1,0 +1,25 @@
+from django.contrib import admin
+from ieomanager.models import *
+
+# Register your models here.
+admin.site.register(User)
+admin.site.register(Admin)
+admin.site.register(Otp)
+admin.site.register(Service)
+admin.site.register(Cnc)
+admin.site.register(Laser_cutting)
+admin.site.register(Pcb_designing)
+admin.site.register(Three_d_printing)
+admin.site.register(Rapid_prototyping)
+admin.site.register(Web_mobile)
+admin.site.register(Bookings)
+admin.site.register(Cart)
+admin.site.register(Orders)
+admin.site.register(Payments)
+admin.site.register(Coupons)
+admin.site.register(Quotation)
+admin.site.register(Consultation)
+admin.site.register(Contact_us)
+admin.site.register(Blogs)
+admin.site.register(Comments)
+admin.site.register(Replies)
